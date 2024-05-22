@@ -4,6 +4,9 @@ from datetime import datetime
 import hashlib
 import pandas as pd
 import pytz
+from typing import Iterable
+
+
 
 # Helper functions
 def hash_password(password):
